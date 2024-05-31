@@ -8,7 +8,6 @@ import { setRole } from "@/store/modules/league";
 import { setUserInfo } from "@/store/modules/user";
 import { ConfigProvider, Menu } from "antd";
 import menuConfig from "./MenuConfig";
-import { QqOutlined } from '@ant-design/icons';
 import zhCN from "antd/locale/zh_CN";
 
 const { Header, Content, Sider } = Layout;
@@ -89,7 +88,7 @@ const App = () => {
         },
       }}
     >
-      <Layout style={{ height: "100vh" }}>
+      <Layout style={{ height: "100%" }}>
         <Header style={{ display: "flex", height: 80 }}>
           <div className="logo">
             <img
