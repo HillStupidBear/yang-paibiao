@@ -8,6 +8,7 @@ import { setRole } from "@/store/modules/league";
 import { setUserInfo } from "@/store/modules/user";
 import { ConfigProvider, Menu } from "antd";
 import menuConfig from "./MenuConfig";
+import { QqOutlined } from '@ant-design/icons';
 import zhCN from "antd/locale/zh_CN";
 
 const { Header, Content, Sider } = Layout;
@@ -98,7 +99,7 @@ const App = () => {
             />
           </div>
           <Space style={{ marginLeft: "auto" }}>
-            <Avatar size="large" gap={1}>
+            <Avatar size="large" gap={1} src="/defaultAvatar.png">
               头像
             </Avatar>
             <div style={{ color: "#fff", fontSize: 18 }}>
